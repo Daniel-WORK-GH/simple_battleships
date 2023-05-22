@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Battle ships</title>
+
+        <style> 
+            .prevent-select {
+              -webkit-user-select: none; /* Safari */
+              -ms-user-select: none; /* IE 10 and IE 11 */
+              user-select: none; /* Standard syntax */
+            }
+        </style>
+    </head>
+    <body>
+
+    <canvas id="myCanvas" width="300" height="300" style="border:1px solid #000000;">
+        Your browser does not support the HTML canvas tag.
+    </canvas>
+
+    <form class="prevent-select" action="">
+        <p>Please select board size:</p>
+        <input type="radio" id="c1" name="size" value="10" checked>
+        <label for="c1">10x10</label>
+        <input type="radio" id="c2" name="size" value="11">
+        <label for="c2">11x11</label><br>
+        <input type="radio" id="c3" name="size" value="12">
+        <label for="c3">12x12</label>
+        <input type="radio" id="c4" name="size" value="13">
+        <label for="c4">13x13</label><br>
+        <input type="radio" id="c5" name="size" value="14">
+        <label for="c5">14x14</label>
+        <input type="radio" id="c6" name="size" value="15">
+        <label for="c6">15x15</label><br><br>
+
+        <p>Chose number of ships:</p>
+        <label for="ship2">Size 2</label>
+        <input type="text" id="ship2" name="ship2" value="1"><br><br>
+        <label for="ship3">Size 3</label>
+        <input type="text" id="ship3" name="ship3" value="1"><br><br>
+        <label for="ship4">Size 4</label>
+        <input type="text" id="ship4" name="ship4" value="1"><br><br>
+        <label for="ship5">Size 5</label>
+        <input type="text" id="ship5" name="ship5" value="1"><br><br>
+
+        <input type="checkbox" id="showcase" name="showcase" value=""/>
+        <label for="showcase">Showcase placement ? </label><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <script src="main.js"></script>
+
+    </body>
+</html>
+
