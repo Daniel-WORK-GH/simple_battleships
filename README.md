@@ -12,6 +12,10 @@ Coloring:
 - orange - shunken ship
 - gray - unknown
 
+Game animations:
+- An explosion sound effect will play in addition to a popup of a 'boom' image when a ship is completely destroyed 
+- A 'win' popup will show when there are no ships left in addtion to all mouse game controls being disabled until reset
+
 A test game:
 
 ![Screenshot 2023-05-22 155527](https://github.com/Daniel-WORK-GH/simple_battleships/assets/120199463/6fab44c0-42f5-4682-99dc-97872c0d6a9a)
